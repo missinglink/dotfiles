@@ -1,0 +1,18 @@
+# --- user aliases ---
+alias ll='ls -alF';
+alias la='ls -A';
+alias l='ls -lah';
+alias g='git status';
+alias d='git diff';
+alias hosts='arp -a -n';
+alias wifipeers='nmap -sn `ifconfig wlan0 | grep "inet addr" | cut -d":" -f2 | cut -d"." -f1,2,3`.0/24';
+alias lanpeers='nmap -sn `ifconfig eth0 | grep "inet addr" | cut -d":" -f2 | cut -d"." -f1,2,3`.0/24';
+alias services='service --status-all; initctl list;'
+alias httpsnoop='sudo ngrep -l -q -d eth0 "^GET |^POST " tcp and port 80';
+alias sshbigdev='autossh -f -N bigdev';
+
+# to enable gnome settings panels
+# sudo nano /usr/share/applications/gnome-bluetooth-panel.desktop
+# > #OnlyShowIn (comment) 
+alias sound='gnome-control-center sound';
+alias bluetooth='gnome-control-center bluetooth';

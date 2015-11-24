@@ -1,0 +1,1 @@
+/home/peter/.screenlayout/mini-2-monitors.sh
