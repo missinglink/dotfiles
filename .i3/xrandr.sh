@@ -1,1 +1,1 @@
-/home/peter/.screenlayout/mini-2-monitors.sh
+/var/www/dotfiles/.i3/xrandr-mini-2-monitors.sh

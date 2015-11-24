@@ -1,0 +1,4 @@
+# git
+GIT_PS1_SHOWDIRTYSTATE=true # */+ for dirty
+GIT_PS1_SHOWSTASHSTATE=true # $ for stashes
+GIT_PS1_SHOWUNTRACKEDFILES=true # % for untracked
